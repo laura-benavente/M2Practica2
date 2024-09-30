@@ -1,0 +1,77 @@
+/*estilo body */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(249, 230, 205); /* Fondo suave pastel */
+}
+
+/*estilo encabezado */
+header {
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgba(225, 183, 225, 1); /* Morado pastel */
+    color: rgba(255, 255, 255, 1); /* Blanco */
+    text-align: center;
+    padding: 20px;
+}
+
+/*estilo sección artículos */
+.articulos-seccion {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 8%;
+    margin-right: 5%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+/*estilo primer artículo 16px con texto justificado */
+#articulo1 {
+    font-size: 16px;
+    text-align: justify;
+    color: rgb(234, 147, 167);
+    margin-bottom: 20px;
+}
+
+/*estilo segundo artículo 12px, negrita y cursiva*/
+#articulo2 {
+    font-size: 12px;
+    font-weight: bold;
+    font-style: italic; 
+    color: rgb(151, 95, 194); 
+}
+
+/*estilo pie de pagina*/
+footer {
+    background-color: rgba(225, 183, 225, 1); /* Morado pastel */
+    text-align: center;
+    padding: 16px 0;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    gap: 12px;
+}
+
+/*estilo menú pie de pagina */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+}
+
+nav ul li {
+    display: inline; 
+    margin: 0 15px; 
+}
+
+/* Estilo para los enlaces */
+nav a {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color:rgb(111, 39, 123); 
+}
+
+/* selector de pseudoclase para cambair el texto a naranja cuando el cursor pasa por encima*/
+nav a:hover {
+    color: rgb(214, 130, 11);
+}
